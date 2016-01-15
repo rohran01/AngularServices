@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="servicesApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Services</title>
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+</head>
+<body ng-controller="servicesController">
+
+<p>Name: {{name}}</p>
+<p>Instructors:<li ng-repeat="instructor in instructors">{{instructor}}</li></p>
+<p>Mascot: {{mascot}}</p>
+<p>Pet: {{dog}}</p>
+<p>Motto: {{motto}}</p>
+<p>Mantra: {{mantra}}</p>
+<p>Current Fuel Source: {{fuel}}</p>
+
+</body>
+</html>
